@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Form</title>
+    <link
+      rel="icon"
+      href="https://web.dev/static/articles/building/an-adaptive-favicon/image/example-dark-theme-favico-6a6f6f67bc3e7.png"
+    />
+    <link rel="stylesheet" href="form.css" />
+  </head>
+</html>
+<body>
+  <h1>Please Enter Your Information.</h1>
+    <form onsubmit="return false;">
+    <label> Enter your First Name. </label>
+    <input type="text" name="name" />
+    <br />
+    <label> Enter your Last Name. </label>
+    <input type="text" name="lName" />
+    <br />
+    <!-- // placeholder -->
+    <label> Email-address. </label>
+    <input type="email" name="email-address" placeholder="abcd@email.com" />
+    <br />
+    <label> If you have anything to add.</label>
+    <textarea name="comment"> Please add your comment here</textarea>
+    <br />
+    <label>Enter your Gender</label>
+    <input type="radio" name="gender" value="Male" /> Male
+    <input type="radio" name="gender" value="Female" /> Female
+    <br />
+    <label>Phone Number</label>
+    <input type="" name="pNumber" />
+    <br>
+    <input type="submit" onclick="sayHello();" />
+
+    <label>Enter your College</label>
+
+    <select>
+      <option value="NEC">NEC</option>
+      <option value="Everest">Everest</option>
+      <option value="Cosmos">Cosmos</option>
+    </select>
+  </form>
+
+  <script src="form.js"></script>
+</body>
+<style>
+  /* body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 12px;
+      box-sizing: border-box;
+    }
+
+    input[type="radio"] {
+      margin-right: 4px;
+    }
+
+    input[type="submit"] {
+      background-color: #4caf50;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    } */
+</style>
