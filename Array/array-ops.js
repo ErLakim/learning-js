@@ -13,11 +13,12 @@
 // write a fn that accepts an array and return the sum of all items of array
 //[1,2,3,4,5,6,7,8,9,10] => 55
 
-const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-const initValue = 0;
-const sumAll = array.reduce(
-  (accumulator, currentValue) => accumulator + currentValue,
-  initValue
-);
-console.log(sumAll);
-console.log("hello");
+// const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// const initValue = 0;
+// const sumAll = array.reduce(
+//   (accumulator, currentValue) => accumulator + currentValue,
+//   initValue
+// );
+// console.log(sumAll);
+// console.log("hello");
+
